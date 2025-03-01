@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bible Bowl Main Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="verse-container" id="verse-container"></div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="main-container">
+    <h1 class="title">
+      Bible Bowl
+      <div class="title-bar"></div>
+    </h1>
+    <div class="menu-buttons">
+      <button class="menu-btn" id="books-btn">Books</button>
+      <button class="menu-btn">Settings</button>
+      <button class="menu-btn">Study Plan</button>
+    </div>
+  </div>
+
+  <!-- Books Menu -->
+  <div class="books-menu hidden" id="books-menu">
+    <h2>
+      Select a Book
+      <div class="title-bar"></div>
+    </h2>
+    <ul class="books-list"></ul>
+    <button class="close-btn" id="close-books-menu">Close</button>
+  </div>
+
+  <!-- Calendar Section -->
+  <div class="calendar-container">
+    <h3 class="calendar-title">Brantford Schedule</h3>
+    <iframe 
+      src="https://calendar.google.com/calendar/embed?src=your_calendar_id&ctz=America%2FToronto" 
+      style="border:0" 
+      width="100%" 
+      height="250" 
+      frameborder="0" 
+      scrolling="no">
+    </iframe>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Bible Bowl | Designed with love and faith</p>
+      <div class="footer-links">
+        <a href="#">Contact</a>
+        <a href="#">Source Code</a>
+        <a href="#">Credits</a>
+        <a href="#">Info</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
